@@ -6,5 +6,11 @@
         android:orderInCategory="100"
         android:title="Settings"
         app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_next"
+        android:icon="@drawable/ic_baseline_forward_24"
+        android:orderInCategory="101"
+        android:title="Next"
+        app:showAsAction="ifRoom|withText" />
 
 </menu>
